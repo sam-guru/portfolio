@@ -11,7 +11,7 @@ const Hero = () => {
       {/* hero image */} 
         <div className='col-span-1 my-auto mx-auto'>
             <div className='w-[300px] h-auto lg:w-[400px]'>
-                <img src={heroimage} alt="hero image" />
+                <img src={heroimage}/>
             </div>
         </div>
 
