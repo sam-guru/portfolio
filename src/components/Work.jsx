@@ -16,11 +16,7 @@ const Work = () => {
             <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
                             shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
                             h-[200px] bg-cover relative'>
-<<<<<<< HEAD
-                <img src={proj1} alt='migration-check-image'/>
-=======
                 <img src={proj1} alt='migrationCheckImage'/>
->>>>>>> 50a4f4a352eff60cefc41f6fd104b6d3205e1c8f
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex 
                                 flex-col justify-center items-center'>
                     <span className='text-2xl font-bold text-white tracking-wider'>Migration Check</span>
@@ -41,11 +37,7 @@ const Work = () => {
             <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
                             shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
                             h-[200px] bg-cover relative'>
-<<<<<<< HEAD
-                <img src={proj2} alt='FertzMall-image'/>
-=======
                 <img src={proj2} alt="fertzMall_logo"/>
->>>>>>> 50a4f4a352eff60cefc41f6fd104b6d3205e1c8f
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex 
                                 flex-col justify-center items-center'>
                     <span className='text-2xl font-bold text-white tracking-wider'>Fertz Mall</span>
@@ -66,11 +58,7 @@ const Work = () => {
             <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
                             shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
                             h-[200px] bg-cover relative'>
-<<<<<<< HEAD
-                <img src={proj5} alt='demo-image'/>
-=======
                 <img src={proj5} alt="demo_logo"/>
->>>>>>> 50a4f4a352eff60cefc41f6fd104b6d3205e1c8f
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex 
                                 flex-col justify-center items-center'>
                     <span className='text-2xl font-bold text-white tracking-wider'>Migration Check</span>
