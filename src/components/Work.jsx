@@ -28,6 +28,14 @@ const Work = () => {
 
                             </button>
                         </a>
+                        <p>
+                            Migration-Check.com streamlines your German relocation journey with a suite of services 
+                            powered by cutting-edge technology.  They offer expert review of your CV and application 
+                            materials, ensuring they meet German standards.  The platform is built with technologies 
+                            such as JavaScript for interactivity, React for a 
+                            dynamic user experience, Node.js for efficient backend operations, Next.js for optimal 
+                            performance, and APIs for seamless integration of various services. 
+                        </p>
                     </div>
                 </div>
 
@@ -42,13 +50,18 @@ const Work = () => {
                                 flex-col justify-center items-center'>
                     <span className='text-2xl font-bold text-white tracking-wider'>Fertz Mall</span>
                     <div className='pt-8 text-center'>
-                        <a href="https://www.fertzmall.com/">
+                        <a href="https://kashii96.pythonanywhere.com/">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700
                                                 font-bold text-lg'>
                                 Live
 
                             </button>
                         </a>
+                        <p>
+                            Fertz Mall is a web scraper application built with Python and the Django framework. 
+                            It utilizes Selenium for web automation and data collection, integrates a SQLite3 database, and features 
+                            a user interface built with Tailwind CSS and Javascript, and an integrated AI chatbot.
+                        </p>
                     </div>
                 </div>
 
