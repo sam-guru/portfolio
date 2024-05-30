@@ -18,7 +18,7 @@ const Hero = () => {
 
         {/* hero text */} 
         <div className='col-span-2 px-5 my-auto'>
-            <h1 className='text-white text-4xl sm:text-5xl lg:text-8xl font-extrabold'>
+            <h1 className='text-white text-3xl sm:text-4xl lg:text-7xl font-extrabold'>
                 <span className='primary-color'>
                     I'm a
                 </span> <br />
