@@ -8,6 +8,7 @@ import Csharp from '../assets/c#.png'
 import java from '../assets/java.webp'
 import python from '../assets/python.png'
 import php from '../assets/php.png'
+import nodejs from '../assets/node-js.svg'
 
 
 const Skills = () => {
@@ -62,6 +63,10 @@ const Skills = () => {
         <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
             <img src={Csharp} alt="C#-logo" width={100} height={100}/>
             <p className='mt-2'>CSharp</p>
+        </div>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
+            <img src={nodejs} alt="C#-logo" width={100} height={100}/>
+            <p className='mt-2'>NodeJS</p>
         </div>
       
     </div>
