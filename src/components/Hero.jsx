@@ -1,7 +1,7 @@
 import React from 'react'
 import heroimage from '../assets/profilepic1b.png'
 import { TypeAnimation } from 'react-type-animation'
-import myCV from '../assets/Ikashi-Ishieka-CV.pdf'
+// import myCV from '../assets/Ikashi-Ishieka-CV.pdf'
 
 
 const Hero = () => {
@@ -40,16 +40,16 @@ const Hero = () => {
                 My name is Ikashi Ishieka and I have 2+ years experience in web development.
             </p>
 
-            <div className='my-8'>
-                <a href={myCV} download='ikashi-ishieka-CV' className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br
+            <div className='my-8 '>
+
+                {/* <a href={myCV} download='ikashi-ishieka-CV' className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br
                 from-orange-500 to-pink-500 text-white hover:text-gray-700 hover:font-extrabold'>
                     Download CV
-                </a>
+                </a> */}
 
-
-                <a href="#contact" className='px-6 py-3 w-full rounded-xl mr-4 border border-gray-400 
-                hover:bg-gradient-to-br from-orange-500 to-pink-500 text-white hover:border-none'>
-                    Contact
+                <a href="#contact" className='px-9 py-6 w-full rounded-xl mr-4 bg-gradient-to-br
+                from-orange-500 to-pink-500 text-white hover:text-gray-700 hover:font-extrabold'>
+                    Contact Me
                 </a>
             </div>
 
