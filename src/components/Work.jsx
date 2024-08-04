@@ -15,7 +15,7 @@ const Work = () => {
 
   return (
     <div className='max-w-[1200px] mx-auto p-5' id='work'>
-      <div data-aos="fade-right" data-aos-delay="300" className='pb-8'>
+      <div data-aos="fade-right" data-aos-delay="200" className='pb-8'>
             <p className='text-4xl mb-3 font-bold primary-color'>Work</p>
             <p className='text-gray-400'>Check out some of my recent work</p>
         </div>
@@ -29,7 +29,7 @@ const Work = () => {
               A web application designed to help users assess their eligibility for migration to Germany.
             </p>
             <p className='text-gray-600 mt-2 border-top-10'>
-              Project was built using React, NodeJS, TailwindCSS, etc.
+              Project was built using Html, React, Next.js, Node.js, etc.
             </p>
           </div>
           <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
@@ -58,7 +58,7 @@ const Work = () => {
               An e-commerce platform offering a wide range of products with user-friendly shopping experiences.
             </p>
             <p className='text-gray-600 mt-2 border-top-10'>
-              Project was built using Python, Django, TailwindCSS, Selenium, etc.
+              Project was built using Html, Python, Django, TailwindCSS, Selenium, etc.
             </p>
           </div>
           <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
@@ -87,7 +87,7 @@ const Work = () => {
               A personal portfolio showcasing my projects, skills, and professional journey as a developer.
             </p>
             <p className='text-gray-600 mt-2 border-top-10'>
-              Project was built using React, NodeJS, TailwindCSS, etc.
+              Project was built using Html, React, Node.js, TailwindCSS, etc.
             </p>
           </div>
           <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden

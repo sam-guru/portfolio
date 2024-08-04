@@ -13,10 +13,10 @@ const Footer = () => {
   }, []);
   return (
     <div className='max-w-[1200px] sm:h-[150px] p-12 flex justify-between mx-auto'>
-      <div data-aos="fade-right" data-aos-delay="300">
+      <div>
         <span className='primary-color text-3xl font-black '>I. ISHIEKA</span>
       </div>
-      <div data-aos="fade-left" data-aos-delay="300" >
+      <div >
         <p className='text-gray-600 md:pt-0 pt-2'> All rights reserved &#169;2024</p>
       </div>
       

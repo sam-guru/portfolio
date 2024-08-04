@@ -1,12 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import heroimage from '../assets/profilepic1b.png'
 import { TypeAnimation } from 'react-type-animation'
 // import myCV from '../assets/Ikashi-Ishieka-CV.pdf'
 
 
 const Hero = () => {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000, // Animation duration in ms
+            once: false, // Whether animation should happen only once
+        });
+    }, []);
+
   return (
-    <div className='mt-20 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 bg-black'>
+    <div data-aos="flip-up" data-aos-delay="200" className='mt-20 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 bg-black'>
       
       {/* hero image */} 
         <div className='col-span-1 my-auto mx-auto'>
