@@ -1,14 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import aboutimg from '../assets/aboutme1b.jpg'
 
 const About = () => {
+    useEffect(() => {
+      AOS.init({
+          duration: 1000, // Animation duration in ms
+          once: false, // Whether animation should happen only once
+      });
+  }, []);
+
   return (
     <div className='text-white max-w-[1200px] mx-auto my-12' id='about'>
       
       <div className='md:grid md:grid-cols-2 sm:py-16'>
 
         <div className='mt-4 md:mt-0 text-left flex'>
-            <div className='my-auto mx-6'>
+            <div data-aos="fade-right" className='my-auto mx-6'>
                 <h2 className='text-4xl font-bold mb-4 primary-color'>About Me</h2>
                 <p className='text-base lg:text-lg'>
                   
@@ -29,8 +38,10 @@ const About = () => {
                 </p>
             </div>
         </div>
-
+        <div data-aos="fade-left" data-aos-delay="500" >
         <img className='mx-auto md:mt-14 rounded-3xl  py-8 md:py-0' src={aboutimg} width={300} height={250} alt='ikashi_ishieka_photo'/>
+
+        </div>
 
       </div>
     </div>

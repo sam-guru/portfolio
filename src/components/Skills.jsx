@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import html from '../assets/html.png'
 import bootstrap from '../assets/bootstrap.png'
 import tailwind from '../assets/tailwind.png'
@@ -12,8 +14,14 @@ import nodejs from '../assets/node-js.svg'
 
 
 const Skills = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 1000, // Animation duration in ms
+            once: false, // Whether animation should happen only once
+        });
+    }, []);
   return (
-    <div className='border border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-rows-3 grid-flow-col
+    <div data-aos="zoom-in" data-aos-delay="200"  className='border border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-rows-3 grid-flow-col
                         place-items-center md:flex md:justify-between md:items-center'>
 
         <h2 className='row-span-3 text-gray-700 text-2xl md:tet-4xl font-bold m-4'>
