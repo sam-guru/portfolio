@@ -47,7 +47,7 @@ const Hero = () => {
                 />
             </h1>
             <p className='text-white sm:text-lg my-6 lg:text-xl'>
-                My name is Ikashi Ishieka and I have 2+ years experience in web development.
+                My name is Ikashi Ishieka and I have 3+ years experience in web development.
             </p>
 
             <div className='my-8 '>
