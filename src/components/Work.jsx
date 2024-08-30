@@ -24,7 +24,7 @@ const Work = () => {
         {/* Migration Check */}
         <div data-aos="fade-up" data-aos-delay="300" className='flex flex-col items-center'>
           <div className='text-center mb-4'>
-            <span className='text-2xl font-bold text-gray-800 tracking-wider'>Migration Check</span>
+            <span className='text-2xl font-bold text-gray-400 tracking-wider'>Migration Check</span>
             <p className='text-gray-600 mt-2'>
               A web application designed to help users assess their eligibility for migration to Germany.
             </p>
@@ -53,9 +53,9 @@ const Work = () => {
         {/* Fertz Mall */}
         <div data-aos="fade-up" data-aos-delay="200" className='flex flex-col items-center'>
           <div className='text-center mb-4'>
-            <span className='text-2xl font-bold text-gray-800 tracking-wider'>Fertz Mall</span>
+            <span className='text-2xl font-bold text-gray-400 tracking-wider'>Fertz Mall</span>
             <p className='text-gray-600 mt-2'>
-              A website that curates agricultural plant health products sourced from various online platforms in Nigeria.
+              A scrapping website that curates agricultural plant health products sourced from various online platforms in Nigeria.
             </p>
             <p className='text-gray-600 mt-2 border-top-10'>
               Project was built using Html, TailwindCSS, Python, Django, Selenium, etc.
@@ -82,7 +82,7 @@ const Work = () => {
         {/* Portfolio */}
         <div data-aos="fade-up" data-aos-delay="300" className='flex flex-col items-center'>
           <div className='text-center mb-4'>
-            <span className='text-2xl font-bold text-gray-800 tracking-wider'>Portfolio</span>
+            <span className='text-2xl font-bold text-gray-400 tracking-wider'>Portfolio</span>
             <p className='text-gray-600 mt-2'>
               A personal portfolio showcasing my projects, skills, and professional journey as a developer.
             </p>
