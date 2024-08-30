@@ -55,10 +55,10 @@ const Work = () => {
           <div className='text-center mb-4'>
             <span className='text-2xl font-bold text-gray-800 tracking-wider'>Fertz Mall</span>
             <p className='text-gray-600 mt-2'>
-              An e-commerce platform offering a wide range of products with user-friendly shopping experiences.
+              A website that curates agricultural plant health products sourced from various online platforms in Nigeria.
             </p>
             <p className='text-gray-600 mt-2 border-top-10'>
-              Project was built using Html, Python, Django, TailwindCSS, Selenium, etc.
+              Project was built using Html, TailwindCSS, Python, Django, Selenium, etc.
             </p>
           </div>
           <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
