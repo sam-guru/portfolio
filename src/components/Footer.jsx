@@ -17,7 +17,7 @@ const Footer = () => {
         <span className='primary-color text-3xl font-black '>I. ISHIEKA</span>
       </div>
       <div >
-        <p className='text-gray-600 md:pt-0 pt-2'> All rights reserved &#169;2024</p>
+        <p className='text-gray-600 md:pt-0 pt-2'> All rights reserved &#169;2025</p>
       </div>
       
     </div>
