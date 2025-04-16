@@ -51,11 +51,11 @@ const Work = () => {
         </div>
 
         {/* Fertz Mall */}
-        <div data-aos="fade-up" data-aos-delay="200" className='flex flex-col items-center'>
+        <div data-aos="fade-up" data-aos-delay="200" className='flex flex-col items-center pt-12 md:pt-0'>
           <div className='text-center mb-4'>
             <span className='text-2xl font-bold text-gray-400 tracking-wider'>Fertz Mall</span>
             <p className='text-gray-600 mt-2'>
-             This was my final year dissertation, titled “Design and Implementation of a Web-Based Application for Managing Agricultural Health Products.” 
+             My final year dissertation, titled “Design and Implementation of a Web-Based Application for Managing Agricultural Health Products.” 
              It is a website that collects & organizes plant health products from different online sources in Nigeria.
             </p>
             <p className='text-gray-600 mt-2 border-top-10'>
@@ -82,7 +82,7 @@ const Work = () => {
         </div>
 
         {/* Portfolio */}
-        <div data-aos="fade-up" data-aos-delay="300" className='flex flex-col items-center'>
+        <div data-aos="fade-up" data-aos-delay="300" className='flex flex-col items-center pt-12 md:pt-0'>
           <div className='text-center mb-4'>
             <span className='text-2xl font-bold text-gray-400 tracking-wider'>Portfolio</span>
             <p className='text-gray-600 mt-2'>
