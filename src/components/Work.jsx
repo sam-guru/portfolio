@@ -29,7 +29,7 @@ const Work = () => {
               A web application designed to help users assess their eligibility for migration to Germany.
             </p>
             <p className='text-gray-600 mt-2 border-top-10'>
-              Project was built using Html, React, Next.js, Node.js, etc.
+              Project was built using HTML, React, Next.js, Node.js, etc.
             </p>
           </div>
           <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
@@ -55,8 +55,8 @@ const Work = () => {
           <div className='text-center mb-4'>
             <span className='text-2xl font-bold text-gray-400 tracking-wider'>Fertz Mall</span>
             <p className='text-gray-600 mt-2'>
-             This project was my final year dissertation, titled “Design and Implementation of a Web-Based Application for Managing Agricultural Health Products.” 
-             It is a website that collects and organizes agricultural plant health products from different online sources in Nigeria.
+             This was my final year dissertation, titled “Design and Implementation of a Web-Based Application for Managing Agricultural Health Products.” 
+             It is a website that collects & organizes plant health products from different online sources in Nigeria.
             </p>
             <p className='text-gray-600 mt-2 border-top-10'>
               Project was built using HTML, TailwindCSS, Python, Django, Selenium, etc. 
@@ -89,7 +89,7 @@ const Work = () => {
               A personal portfolio showcasing my projects, skills, and professional journey as a developer.
             </p>
             <p className='text-gray-600 mt-2 border-top-10'>
-              Project was built using Html, React, Node.js, TailwindCSS, etc.
+              Project was built using HTML, React, Node.js, TailwindCSS, etc.
             </p>
           </div>
           <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
