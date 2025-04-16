@@ -55,11 +55,11 @@ const Work = () => {
           <div className='text-center mb-4'>
             <span className='text-2xl font-bold text-gray-400 tracking-wider'>Fertz Mall</span>
             <p className='text-gray-600 mt-2'>
-             This project was my final year dissertation, featured in international journals, titled “Design and Implementation of a Web-Based Application for Managing Agricultural Health Products.” 
+             This project was my final year dissertation, titled “Design and Implementation of a Web-Based Application for Managing Agricultural Health Products.” 
               It is a web scraping platform that curates agricultural plant health products sourced from various online platforms in Nigeria for demonstration purposes.
             </p>
             <p className='text-gray-600 mt-2 border-top-10'>
-              Project was built using HTML, TailwindCSS, Python, Django, Selenium, etc. and is capable of extracting and displaying up-to-date product listings in a user-friendly interface.
+              Project was built using HTML, TailwindCSS, Python, Django, Selenium, etc. 
 
             </p>
           </div>
