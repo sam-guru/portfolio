@@ -12,7 +12,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className='text-white max-w-[1200px] mx-auto my-12' id='about'>
+<div className='text-white max-w-[1200px] mx-auto my-12' id='about'>
       
       <div className='md:grid md:grid-cols-2 sm:py-16'>
 
@@ -38,13 +38,10 @@ const About = () => {
                 </p>
             </div>
         </div>
-        <div data-aos="fade-left" data-aos-delay="500" >
-        <img className='mx-auto md:mt-14 rounded-3xl py-8 md:py-0' src={aboutimg} width={300} height={250} alt='ikashi_ishieka_photo'/>
+    <div data-aos="fade-left" data-aos-delay="500" >
+        <img className='mx-auto md:mt-14 rounded-xl md:rounded-3xl py-8 md:py-0' src={aboutimg} width={300} height={250} alt='ikashi_ishieka_photo'/>
+</div>
 
-        </div>
-
-      </div>
-    </div>
   )
 }
 
