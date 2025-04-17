@@ -39,7 +39,7 @@ const About = () => {
             </div>
         </div>
     <div data-aos="fade-left" data-aos-delay="500" >
-        <img className='mx-auto md:mt-14 rounded-full border-4 border-white md:rounded-3xl py-8 md:py-0' src={aboutimg} width={300} height={250} alt='ikashi_ishieka_photo'/>
+        <img className='mx-auto md:mt-14 rounded-lg border-4 border-white md:rounded-3xl py-8 md:py-0' src={aboutimg} width={300} height={250} alt='ikashi_ishieka_photo'/>
 </div>
 
   )
