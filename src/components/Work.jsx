@@ -20,16 +20,16 @@ const Work = () => {
             <p className='text-gray-400'>Check out some of my recent work</p>
         </div>
 
-      <div className='flex gap-4 overflow-x-auto scroll-smooth pb-4'>
+      <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
         {/* Migration Check */}
-        <div data-aos="fade-up" data-aos-delay="300" className='flex-shrink-0 w-[300px] flex flex-col items-center'>
+        <div data-aos="fade-up" data-aos-delay="300" className='flex flex-col items-center'>
           <div className='text-center mb-4'>
             <span className='text-2xl font-bold text-gray-400 tracking-wider'>Migration Check</span>
             <p className='text-gray-600 mt-2'>
               A web application designed to help users assess their eligibility for migration to Germany.
             </p>
             <p className='text-gray-600 mt-2 border-top-10'>
-              Project was built using HTML, React, Next.js, Node.js, etc.
+              Project was built using Html, React, Next.js, Node.js, etc.
             </p>
           </div>
           <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
@@ -50,48 +50,15 @@ const Work = () => {
           </div>
         </div>
 
-        {/* Windsong */}
-        <div data-aos="fade-up" data-aos-delay="300" className='flex-shrink-0 w-[300px] flex flex-col items-center'>
-          <div className='text-center mb-4'>
-            <span className='text-2xl font-bold text-gray-400 tracking-wider'>Windsong </span>
-            <p className='text-gray-600 mt-2'>
-             My final year dissertation, titled “Design and Implementation of a Web-Based Application for Managing Agricultural Health Products.” 
-             It is a website that collects & organizes plant health products from different online sources in Nigeria.
-            </p>
-            <p className='text-gray-600 mt-2 border-top-10'>
-              Project was built using HTML, TailwindCSS, Python, Django, Selenium, etc. 
-
-            </p>
-          </div>
-          <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
-                          shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
-                          h-[200px] bg-cover relative'>
-            <img src={proj2} alt="fertzMall_logo" className='object-cover w-full h-full'/>
-            <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex 
-                            flex-col justify-center items-center'>
-              <div className='pt-8 text-center'>
-                <a href="https://kashii96.pythonanywhere.com/" target='_blank' rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700
-                                      font-bold text-lg'>
-                    Live
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Fertz Mall */}
-        <div data-aos="fade-up" data-aos-delay="300" className='flex-shrink-0 w-[300px] flex flex-col items-center'>
+        <div data-aos="fade-up" data-aos-delay="200" className='flex flex-col items-center'>
           <div className='text-center mb-4'>
             <span className='text-2xl font-bold text-gray-400 tracking-wider'>Fertz Mall</span>
             <p className='text-gray-600 mt-2'>
-             My final year dissertation, titled “Design and Implementation of a Web-Based Application for Managing Agricultural Health Products.” 
-             It is a website that collects & organizes plant health products from different online sources in Nigeria.
+              A scrapping website that curates agricultural plant health products sourced from various online platforms in Nigeria.
             </p>
             <p className='text-gray-600 mt-2 border-top-10'>
-              Project was built using HTML, TailwindCSS, Python, Django, Selenium, etc. 
-
+              Project was built using Html, TailwindCSS, Python, Django, Selenium, etc.
             </p>
           </div>
           <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
@@ -113,14 +80,14 @@ const Work = () => {
         </div>
 
         {/* Portfolio */}
-        <div data-aos="fade-up" data-aos-delay="300" className='flex-shrink-0 w-[300px] flex flex-col items-center'>
+        <div data-aos="fade-up" data-aos-delay="300" className='flex flex-col items-center'>
           <div className='text-center mb-4'>
             <span className='text-2xl font-bold text-gray-400 tracking-wider'>Portfolio</span>
             <p className='text-gray-600 mt-2'>
               A personal portfolio showcasing my projects, skills, and professional journey as a developer.
             </p>
             <p className='text-gray-600 mt-2 border-top-10'>
-              Project was built using HTML, React, Node.js, TailwindCSS, etc.
+              Project was built using Html, React, Node.js, TailwindCSS, etc.
             </p>
           </div>
           <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
