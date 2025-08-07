@@ -34,7 +34,7 @@ const Navbar = () => {
         onClick={() => setDarkMode(!darkMode)}
         className="p-2 rounded-lg bg-slate-200 dark:bg-slate-800 text-black text-xs md:text-sm dark:text-white mr-4"
       >
-      {darkMode ? '☼ Light Mode' : '⏾ Dark Mode'}
+      {darkMode ? '☼ Light Mode' : '◐ Dark Mode'}
       </button>
 
       <div onClick={handleNav} className='block md:hidden mr-6'>
