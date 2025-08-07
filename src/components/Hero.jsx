@@ -16,7 +16,7 @@ const Hero = ({ darkMode }) => {
     }, []);
 
   return (
-    <div data-aos="flip-up" data-aos-delay="200" className="bg-blue-500 dark:bg-black mt-20 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 rounded-lg">
+    <div data-aos="flip-up" data-aos-delay="200" className="bg-blue-500 dark:bg-black mt-20 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] min-h-[70vh] mx-auto py-8 rounded-lg">
       
       {/* hero image */} 
         <div className='col-span-1 my-auto mx-auto'>

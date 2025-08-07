@@ -14,10 +14,10 @@ const Footer = () => {
   return (
     <div className='max-w-[1200px] sm:h-[150px] p-12 flex justify-between mx-auto'>
       <div>
-        <span className='primary-color text-3xl font-black '>I. ISHIEKA</span>
+        <span className='primary-color text-2xl md:text-3xl font-black '>I. ISHIEKA</span>
       </div>
       <div >
-        <p className='text-gray-300 md:pt-0 pt-2'> All rights reserved &#169;2025</p>
+        <p className='text-gray-300 text-xs md:text-md pt-3'> All rights reserved &#169;2025</p>
       </div>
       
     </div>

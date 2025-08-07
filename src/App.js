@@ -19,8 +19,8 @@ function App() {
   }, [darkMode]);
 
   return (
-    <div className={darkMode ? 'dark' : ''}>
-      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
+ 
+    <div className={`${darkMode ? 'dark' : ''} pt-[100px] overflow-x-hidden`}>      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <Hero darkMode={darkMode} />
       <Skills darkMode={darkMode} />
       <About darkMode={darkMode} />

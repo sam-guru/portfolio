@@ -19,7 +19,7 @@ const Navbar = () => {
   }, [darkMode]);
 
   return (
-    <div className={`z-10 ${darkMode ? 'bg-black' : 'bg-blue-500'} text-slate-50 h-[100px] mx-auto justify-between items-center fixed flex-no-wrap pb-10 mb-20 top-0 flex w-full transition-colors duration-300`}>
+    <div className={`fixed top-0 left-0 w-full z-[999] ${darkMode ? 'bg-black' : 'bg-blue-500'} text-slate-50 h-[100px] flex items-center justify-between px-4`}>      
       <a href="/">
         <h1 className='text-3xl font-bold primary-color ml-4'>I. ISHIEKA</h1>
       </a>
