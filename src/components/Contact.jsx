@@ -11,13 +11,13 @@ const Contact = () => {
     }, []);
 
     return (
-        <div data-aos="fade-up" data-aos-delay="300" className='max-w-[1200px] mx-auto bg-black sm:py-20 p-5' id='contact'>
+        <div data-aos="fade-up" data-aos-delay="300" className='max-w-[1200px] mx-auto mt-20 bg-blue-300 dark:bg-black sm:py-20 p-5 rounded-lg' id='contact'>
             <div className='text-center'>
                 <h2 className='text-4xl font-bold leading-tight primary-color'>Contact Me</h2>
             </div>
 
             <div className='max-w-[800px] mx-auto'>
-                <div className='mt-6 bg-[#161616] rounded-xl'>
+                <div className='mt-6 bg-blue-400 dark:bg-[#161616] rounded-xl'>
                     <div className='p-10'>
                         <form action="https://getform.io/f/zbxdpodb" method='POST'>
                             <input type="hidden" name="apikey" value="aa144315-d877-487d-bd64-a5444f80e95d"/>

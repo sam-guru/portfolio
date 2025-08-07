@@ -21,10 +21,10 @@ const Skills = () => {
         });
     }, []);
   return (
-    <div data-aos="zoom-in" data-aos-delay="200"  className='border border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-rows-3 grid-flow-col
-                        place-items-center md:flex md:justify-between md:items-center'>
+    <div data-aos="zoom-in" data-aos-delay="200"  className='mt-20 dark:border dark:border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-rows-3 grid-flow-col
+                        place-items-center md:flex md:justify-between md:items-center rounded-lg'>
 
-        <h2 className='row-span-3 text-gray-700 text-2xl md:tet-4xl font-bold m-4'>
+        <h2 className='row-span-3 text-blue-500 text-2xl md:tet-4xl font-bold m-4'>
             My <br /> Tech <br /> Stack
         </h2>
 

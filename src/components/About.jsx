@@ -12,11 +12,11 @@ const About = () => {
   }, []);
 
   return (
-    <div className='text-white max-w-[1200px] mx-auto my-12' id='about'>
+    <div className='text-black dark:text-white bg-blue-300 dark:bg-black max-w-[1200px] mx-auto my-12 transition-colors duration-300 rounded-lg' id='about'>
       <div className='md:grid md:grid-cols-2 sm:py-16'>
         <div className='mt-4 md:mt-0 text-left flex'>
           <div data-aos='fade-right' className='my-auto mx-6'>
-            <h2 className='text-4xl font-bold mb-4 primary-color'>About Me</h2>
+            <h2 className='text-4xl mt-8 md:mt-0 font-bold mb-4 primary-color'>About Me</h2>
             <p className='text-base lg:text-lg'>
               My passion for technology drives me to constantly explore and develop bespoke applications that 
               address everyday challenges. I thrive on creating innovative solutions that not only meet user 
@@ -35,13 +35,13 @@ const About = () => {
           </div>
         </div>
 
-        <div data-aos='fade-left' data-aos-delay='500'>
+        <div data-aos='fade-left' data-aos-delay='500' className="py-8 md:py-0">
           <img 
-            className='mx-auto md:mt-14 rounded-lg border-4 border-white md:rounded-3xl py-8 md:py-0' 
+            className="mx-auto rounded-lg border-4 border-white dark:border-gray-700 transition-colors duration-300" 
             src={aboutimg} 
             width={300} 
             height={250} 
-            alt='ikashi_ishieka_photo'
+            alt="ikashi_ishieka_photo"
           />
         </div>
       </div>

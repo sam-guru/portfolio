@@ -22,7 +22,7 @@ const projects = [
   {
     title: 'Fertz Mall',
     description: 'A scrapping website that curates agricultural plant health products from Nigerian platforms.',
-    tech: 'Html, TailwindCSS, Python, Django, Selenium, etc.',
+    tech: 'Html, Python, Django, Selenium, etc.',
     image: proj2,
     link: 'https://kashii96.pythonanywhere.com/',
     delay: 200
@@ -50,7 +50,7 @@ const Work = () => {
     <div className='max-w-[1200px] mx-auto p-5' id='work'>
       <div data-aos='fade-right' data-aos-delay='200' className='pb-8'>
         <p className='text-4xl mb-3 font-bold primary-color'>Work</p>
-        <p className='text-gray-400'>Check out some of my recent work</p>
+        <p className='text-gray-100'>Check out some of my recent work</p>
       </div>
 
       <Swiper
@@ -80,9 +80,9 @@ const Work = () => {
               className='flex flex-col items-center h-full'
             >
               <div className='text-center mb-4'>
-                <span className='text-2xl font-bold text-gray-400 tracking-wider'>{proj.title}</span>
-                <p className='text-gray-600 mt-2'>{proj.description}</p>
-                <p className='text-gray-600 mt-2 border-t border-gray-300 pt-2'>{proj.tech}</p>
+                <span className='text-2xl font-bold text-gray-300 tracking-wider'>{proj.title}</span>
+                <p className='text-gray-200 mt-2'>{proj.description}</p>
+                <p className='text-gray-200 mt-2 border-t border-gray-300 pt-2'>Project Tech: {proj.tech}</p>
               </div>
               <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
                               shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
@@ -92,7 +92,7 @@ const Work = () => {
                                 flex-col justify-center items-center'>
                   <div className='pt-8 text-center'>
                     <a href={proj.link} target='_blank' rel='noopener noreferrer'>
-                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 hover:text-blue-700
                                           font-bold text-lg'>
                         Live
                       </button>
