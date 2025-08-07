@@ -11,7 +11,7 @@ const Contact = () => {
     }, []);
 
     return (
-        <div data-aos="fade-up" data-aos-delay="300" className='max-w-[1200px] mx-auto mt-20 bg-blue-300 dark:bg-black sm:py-20 p-5 rounded-lg' id='contact'>
+        <div data-aos="fade-up" data-aos-delay="300" className='scroll-mt-[200px] max-w-[1200px] mx-auto mt-20 bg-blue-300 dark:bg-black sm:py-20 p-5 rounded-lg' id='contact'>
             <div className='text-center'>
                 <h2 className='text-4xl font-bold leading-tight primary-color'>Contact Me</h2>
             </div>

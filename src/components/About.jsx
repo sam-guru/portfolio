@@ -12,7 +12,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className='text-black dark:text-white bg-blue-300 dark:bg-black max-w-[1200px] mx-auto my-12 transition-colors duration-300 rounded-lg' id='about'>
+    <div className='scroll-mt-[120px] text-black dark:text-white bg-blue-300 dark:bg-black max-w-[1200px] mx-auto my-12 transition-colors duration-300 rounded-lg' id='about'>
       <div className='md:grid md:grid-cols-2 sm:py-16'>
         <div className='mt-4 md:mt-0 text-left flex'>
           <div data-aos='fade-right' className='my-auto mx-6'>

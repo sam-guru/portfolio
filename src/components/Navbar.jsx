@@ -34,20 +34,20 @@ const Navbar = () => {
         onClick={() => setDarkMode(!darkMode)}
         className="p-2 rounded-lg bg-slate-200 dark:bg-slate-800 text-black text-xs md:text-sm dark:text-white mr-4"
       >
-        {darkMode ? '☼ Light Mode' : '⏾ Dark Mode'}
+      {darkMode ? '☼ Light Mode' : '⏾ Dark Mode'}
       </button>
 
       <div onClick={handleNav} className='block md:hidden mr-6'>
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
 
-      <div className={nav ? 'z-10 fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500' : 'fixed left-[-100%]'}>
+      <div className={nav ? 'z-10 fixed h-full left-0 top-0 w-[60%] bg-blue-800 dark:bg-black ease-in-out duration-500' : 'fixed left-[-100%]'}>
         <h1 className='text-3xl font-bold primary-color m-4'>I. ISHIEKA</h1>
         <ul className='p-8 text-2xl'>
           <li className='p-2'><a href='/'>Home</a></li>
-          <li className='p-2'><a href='#about'>About</a></li>
-          <li className='p-2'><a href='#work'>Work</a></li>
-          <li className='p-2'><a href='#contact'>Contact</a></li>
+          <li className='p-2'><a href='#about' onClick={handleNav}>About</a></li>
+          <li className='p-2'><a href='#work' onClick={handleNav}>Work</a></li>
+          <li className='p-2'><a href='#contact' onClick={handleNav}>Contact</a></li>
         </ul>
       </div>
     </div>

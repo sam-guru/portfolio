@@ -47,7 +47,7 @@ const Work = () => {
   }, []);
 
   return (
-    <div className='max-w-[1200px] mx-auto p-5' id='work'>
+    <div className='scroll-mt-[120px] max-w-[1200px] mx-auto p-5' id='work'>
       <div data-aos='fade-right' data-aos-delay='200' className='pb-8'>
         <p className='text-4xl mb-3 font-bold primary-color'>Work</p>
         <p className='text-gray-100'>Check out some of my recent work</p>
