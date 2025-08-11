@@ -3,6 +3,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import html from '../assets/html.png'
 import bootstrap from '../assets/bootstrap.png'
+import cascading from '../assets/css.png'
+import PowerPlatform from '../assets/Microsoft-Power-Platform-Icon-2020.png'
 import tailwind from '../assets/tailwind.png'
 import javascript from '../assets/javascript.png'
 import react from '../assets/react.png'
@@ -34,6 +36,11 @@ const Skills = () => {
         </div>
 
         <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
+            <img src={cascading} alt="bootstrap-logo" width={100} height={100}/>
+            <p className='mt-2'>CSS</p>
+        </div>
+        
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
             <img src={bootstrap} alt="bootstrap-logo" width={100} height={100}/>
             <p className='mt-2'>Bootstrap</p>
         </div>
@@ -64,11 +71,6 @@ const Skills = () => {
         </div>
 
         <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
-            <img src={php} alt="php-logo" width={100} height={100}/>
-            <p className='mt-2'>PHP</p>
-        </div>
-
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
             <img src={Csharp} alt="C#-logo" width={100} height={100}/>
             <p className='mt-2'>CSharp</p>
         </div>
@@ -76,7 +78,18 @@ const Skills = () => {
             <img src={nodejs} alt="C#-logo" width={100} height={100}/>
             <p className='mt-2'>NodeJS</p>
         </div>
+
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
+            <img src={php} alt="php-logo" width={100} height={100}/>
+            <p className='mt-2'>PHP</p>
+        </div>
+
+         <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
+            <img src={PowerPlatform} alt="bootstrap-logo" width={100} height={100}/>
+            <p className='mt-2 text-sm'>Power Platform</p>
+        </div>
       
+
     </div>
   )
 }

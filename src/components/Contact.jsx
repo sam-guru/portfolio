@@ -44,12 +44,12 @@ const Contact = () => {
   };
 
   return (
-    <div data-aos="flip-up" data-aos-delay="300" className='scroll-mt-[20 0px] max-w-[1200px] mx-auto mt-20 bg-blue-300 dark:bg-black sm:py-20 p-5 rounded-lg' id='contact'>
-      <div className='text-center'>
+    <div className='scroll-mt-[120px] max-w-[1200px] mx-auto mt-20 bg-blue-300 dark:bg-black sm:py-20 p-5 rounded-lg' id='contact' >
+      <div data-aos="flip-up" data-aos-delay="300"  className='text-center' >
         <h2 className='text-4xl font-bold leading-tight primary-color'>Contact Me</h2>
       </div>
 
-      <div className='max-w-[800px] mx-auto'>
+      <div data-aos="flip-up" data-aos-delay="300" className='max-w-[800px] mx-auto'>
         <div className='mt-6 bg-blue-400 dark:bg-[#161616] rounded-xl'>
           <div className='p-10'>
             <form
