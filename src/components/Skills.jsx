@@ -74,17 +74,17 @@ const Skills = () => {
             <img src={Csharp} alt="C#-logo" width={100} height={100}/>
             <p className='mt-2'>CSharp</p>
         </div>
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
+        <div className='flex flex-col items-center m-4 pr-4 md:pr-0 sm:my-0 w-[40px] md:w-[100px]'>
             <img src={nodejs} alt="C#-logo" width={100} height={100}/>
             <p className='mt-2'>NodeJS</p>
         </div>
 
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
+        <div className='flex flex-col items-center m-4 pr-4 md:pr-0 sm:my-0 w-[40px] md:w-[100px]'>
             <img src={php} alt="php-logo" width={100} height={100}/>
             <p className='mt-2'>PHP</p>
         </div>
 
-         <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
+         <div className='flex flex-col items-center m-4 pr-4 md:pr-0 sm:my-0 w-[40px] md:w-[100px]'>
             <img src={PowerPlatform} alt="bootstrap-logo" width={100} height={100}/>
             <p className='mt-2 text-sm'>Power Platform</p>
         </div>
