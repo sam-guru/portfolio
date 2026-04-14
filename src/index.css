@@ -21,3 +21,17 @@ body {
 .bg-hover-color {
     @apply bg-gradient-to-r from-pink-600 to-orange-400 inline-block;
 }
+
+/* Force all slides to have the same height as the tallest one */
+.swiper-wrapper {
+  display: flex !important;
+}
+
+.swiper-slide {
+  height: auto !important;
+  display: flex !important;
+}
+
+.swiper-slide > div {
+  width: 100%;
+}
