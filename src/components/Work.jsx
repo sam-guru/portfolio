@@ -114,7 +114,7 @@ const Work = () => {
                     Project Tech: {proj.tech}
                   </p>
                   <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
-                                  shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
+                                  shadow-lg shadow-[#dce312] group container rounded-md flex justify-center items-center
                                   h-[200px] bg-cover relative mx-auto'>
                     <img src={proj.image} alt={`${proj.title} screenshot`} className='object-cover w-full h-full' />
                     <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex 
