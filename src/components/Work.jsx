@@ -10,9 +10,20 @@ import proj1 from '../assets/mig-check.png';
 import proj2 from '../assets/fertzmall.png';
 import proj5 from '../assets/proj5.png';
 import globalbank from '../assets/global-bank.png';
+import kryze from '../assets/kryze-collections.png'; 
+
+
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'; 
 
 const projects = [
+  {
+    title: 'Kryze Collections',
+    description: 'A premium e-commerce platform for fashion, featuring a custom administrative dashboard, secure user authentication, cloud-based image storage, and a fully responsive shopping cart experience.',
+    tech: 'PHP, Laravel 13, Alpine.js, TailwindCSS, MySQL',
+    image: kryze,
+    link: 'https://kryze.co.uk',
+    delay: 200
+  },
   {
     title: 'Global Bank',
     description: 'A web banking simulation that enables secure user authentication, transaction PIN protection, internal and external fund transfers, deposits, real-time notifications, and comprehensive transaction history.',
