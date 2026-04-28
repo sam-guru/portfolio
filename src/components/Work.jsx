@@ -18,7 +18,7 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 const projects = [
   {
     title: 'Kryze Collections',
-    description: 'A premium e-commerce platform for fashion, featuring a custom administrative dashboard, secure user authentication, cloud-based image storage, and a fully responsive shopping cart experience.',
+    description: 'A premium e-commerce platform for fashion, featuring a custom admin dashboard, secure user authentication, cloud-based image storage, and a fully responsive shopping cart experience.',
     tech: 'PHP, Laravel 13, Alpine.js, TailwindCSS, MySQL',
     image: kryze,
     link: 'https://kryze.co.uk',
