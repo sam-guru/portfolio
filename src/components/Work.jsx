@@ -29,7 +29,7 @@ const projects = [
     description: 'A web banking simulation that enables secure user authentication, transaction PIN protection, internal and external fund transfers, deposits, real-time notifications, and comprehensive transaction history.',
     tech: 'Html, PHP, Laravel, etc.',
     image: globalbank,
-    link: 'https://globalbank-main-0tlfhs.free.laravel.cloud/',
+    link: 'https://globalbank-main-0tlfhs.laravel.cloud/',
     delay: 300
   },
   {
