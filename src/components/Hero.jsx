@@ -1,7 +1,8 @@
 import React, {useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import heroimage from '../assets/profilepic1b.png'
+import heroimage from '../assets/professional.jpg'
+//import heroimage from '../assets/profilepic1b.png'
 import { TypeAnimation } from 'react-type-animation'
 // import myCV from '../assets/Ikashi-Ishieka-CV.pdf'
 

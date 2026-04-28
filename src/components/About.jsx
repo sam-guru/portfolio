@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import aboutimg from '../assets/aboutme1b.jpg';
+import aboutimg from '../assets/myphoto2.png';
 
 const About = () => {
   useEffect(() => {
@@ -39,8 +39,8 @@ const About = () => {
           <img 
             className="mx-auto rounded-lg border-4 border-white dark:border-gray-700 transition-colors duration-300" 
             src={aboutimg} 
-            width={300} 
-            height={250} 
+            width={400} 
+            height={350} 
             alt="ikashi_ishieka_photo"
           />
         </div>
