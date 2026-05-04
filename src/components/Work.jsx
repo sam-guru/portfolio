@@ -3,8 +3,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import 'swiper/css/navigation'; // 1. Added Navigation CSS
-import { Pagination, Autoplay, Navigation } from 'swiper/modules'; // 2. Added Navigation module
+import 'swiper/css/navigation';
+import { Pagination, Autoplay, Navigation } from 'swiper/modules'  //navigation module
 import { Swiper, SwiperSlide } from 'swiper/react';
 import proj1 from '../assets/mig-check.png';
 import proj2 from '../assets/fertzmall.png';
