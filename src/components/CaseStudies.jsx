@@ -30,9 +30,7 @@ const caseStudies = [
       'As a customer, I want to view product details so I can make informed purchase decisions.',
       'As an admin, I want to manage products so I can keep the catalogue updated.',
       'As a business owner, I want a professional online store so I can increase brand visibility.'
-    ],
-    processFlow:
-      'Customer → Frontend → Laravel Routes/Controller → MySQL Database → Response → Updated UI',
+    ],    
     systemDesign: [
       'Frontend: Blade / Alpine.js / TailwindCSS',
       'Backend: PHP Laravel',
@@ -43,7 +41,24 @@ const caseStudies = [
       'Delivered a fully deployed e-commerce platform',
       'Improved the brand’s online presence',
       'Created a scalable structure for future e-commerce growth'
-    ]
+    ],
+
+    processFlows: {
+        customerBrowsing:
+            'Customer → Product Page → View Product Details → System Fetches Product Data → Product Displayed',
+
+        customerCart:
+            'Customer → Add to Cart → Cart State/Session Updated → Cart Page → Review Items → Update Quantity / Remove Item',
+
+        customerCheckout:
+            'Customer → Cart → Checkout → Enter Delivery Details → Validate Order → Create Order Record → Confirmation',
+
+        customerFavourites:
+            'Customer → Click Favourite → Authentication Check → Save Product to Wishlist → Wishlist Updated',
+
+        admin:
+            'Admin → Admin Dashboard → Controller → Validation → Database (CRUD Operations) → Response → Dashboard Update'
+    }
   }
 ];
 
@@ -56,9 +71,8 @@ const CaseStudies = () => {
   }, []);
 
   return (
-    <div className='scroll-mt-[120px] max-w-[1200px] mx-auto p-5' id='work'>     
-
-      {/* Business Analysis Case Studies */}
+    <div className='scroll-mt-[120px] max-w-[1200px] mx-auto p-5' id='case-studies'>
+      {/* BA case studies */}
         <div className='mt-24' data-aos='fade-up' data-aos-delay='200'>
             <div className='mb-10'>
                 <p className='text-4xl mb-3 font-bold primary-color'>
@@ -139,10 +153,34 @@ const CaseStudies = () => {
 
                     <div className='mt-8'>
                         <h4 className='text-xl font-semibold text-[#dce312] mb-3'>
-                            Process Flow
+                            Customer & Admin Process Flows
                         </h4>
-                        <div className='bg-black/50 border border-gray-700 rounded-lg p-4 text-gray-200 text-center'>
-                            {study.processFlow}
+
+                        <div className='grid md:grid-cols-2 gap-4'>
+                            <div className='bg-black/50 border border-gray-700 rounded-lg p-4'>
+                            <p className='text-blue-400 font-semibold mb-2'>Customer Browsing Flow</p>
+                            <p className='text-gray-200 text-sm'>{study.processFlows.customerBrowsing}</p>
+                            </div>
+
+                            <div className='bg-black/50 border border-gray-700 rounded-lg p-4'>
+                            <p className='text-blue-400 font-semibold mb-2'>Cart Flow</p>
+                            <p className='text-gray-200 text-sm'>{study.processFlows.customerCart}</p>
+                            </div>
+
+                            <div className='bg-black/50 border border-gray-700 rounded-lg p-4'>
+                            <p className='text-blue-400 font-semibold mb-2'>Checkout Flow</p>
+                            <p className='text-gray-200 text-sm'>{study.processFlows.customerCheckout}</p>
+                            </div>
+
+                            <div className='bg-black/50 border border-gray-700 rounded-lg p-4'>
+                            <p className='text-blue-400 font-semibold mb-2'>Favourites Flow</p>
+                            <p className='text-gray-200 text-sm'>{study.processFlows.customerFavourites}</p>
+                            </div>
+
+                            <div className='bg-black/50 border border-gray-700 rounded-lg p-4 md:col-span-2'>
+                            <p className='text-blue-400 font-semibold mb-2'>Admin Flow</p>
+                            <p className='text-gray-200 text-sm'>{study.processFlows.admin}</p>
+                            </div>
                         </div>
                     </div>
 
