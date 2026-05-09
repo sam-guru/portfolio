@@ -38,11 +38,10 @@ const Hero = ({ darkMode }) => {
                 </span> <br />
                 <TypeAnimation
                 sequence={[
-                    "UI/UX Designer",
                     1000,
                     "Software Developer",
                     1000,
-                    "Business Analyst",
+                    "Technical Business Analyst",
                     1000,
                 ]}
                 wrapper='span'

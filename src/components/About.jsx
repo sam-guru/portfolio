@@ -19,8 +19,8 @@ const About = () => {
             <h2 className='text-4xl mt-8 md:mt-0 font-bold mb-4 primary-color'>About Me</h2>
             <p className='text-base lg:text-lg'>
               My passion for technology drives me to constantly explore and develop bespoke applications that 
-              address everyday challenges. I thrive on creating innovative solutions that not only meet user 
-              needs but also enhance their overall experience. This enthusiasm for technology and 
+              address everyday challenges. I thrive on creating innovative solutions that not only meet business 
+              needs but also enhance the overall user/customer experience. This enthusiasm for technology and 
               problem-solving is at the core of my professional identity and motivates me to stay current 
               with emerging trends and continuously improve my skill set. <br /><br />
               
