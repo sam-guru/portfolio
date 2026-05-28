@@ -71,9 +71,9 @@ const CaseStudies = () => {
   }, []);
 
   return (
-    <div className='scroll-mt-[120px] max-w-[1200px] mx-auto p-5' id='case-studies'>
+    <div className='scroll-mt-[120px] max-w-[1200px] mt-10 mx-auto p-5' id='caseStudies'>
       {/* BA case studies */}
-        <div className='mt-24' data-aos='fade-up' data-aos-delay='200'>
+        <div className='' data-aos='fade-up' data-aos-delay='200'>
             <div className='mb-10'>
                 <p className='text-4xl mb-3 font-bold primary-color'>
                     Business Analysis Case Studies

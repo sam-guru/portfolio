@@ -27,7 +27,7 @@ const Navbar = () => {
       <ul className='hidden md:flex'>
         <li className='p-5 hover:bg-blue-800 rounded-xl px-3'><a href='#about'>About</a></li>
         <li className='p-5 hover:bg-blue-800 rounded-xl'><a href='#work'>Work</a></li>
-        <li className='p-5 hover:bg-blue-800 rounded-xl'><a href='#caseStudies'>CaseStudies</a></li>
+        <li className='p-5 hover:bg-blue-800 rounded-xl'><a href='#caseStudies'>Case Studies</a></li>
         <li className='p-5 hover:bg-blue-800 rounded-xl'><a href='#contact'>Contact</a></li>
       </ul>
 
