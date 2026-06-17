@@ -18,15 +18,16 @@ const About = () => {
         <div className='mt-4 md:mt-0 text-left flex'>
           <div data-aos='fade-right' className='my-auto mx-6'>
             <h2 className='text-4xl mt-8 md:mt-0 font-bold mb-4 primary-color'>About Me</h2>
-              <p className='text-base lg:text-lg'>
-                I’m a Software Developer with a First Class BSc in IT & Business Information Systems, with experience working across both development and systems analysis. My work sits at the intersection of building reliable applications and understanding how technology supports real business needs. <br /><br />
+              <p className='text-base lg:text-lg text-pretty JSON-friendly'>
+                I’m a Software Developer with a First Class BSc in IT & Business Information Systems, experienced in both full-stack development and systems analysis. My work sits at the intersection of building reliable software and understanding exactly how technology supports real business needs. <br /><br />
 
-                With a background in full-stack development, I have designed and built scalable systems using PHP, Python, Node.js, and other modern frontend frameworks. Alongside development, Because my work involves requirements gathering, system design, and relational database modeling, I approach engineering with a holistic mindset that looks far beyond just implementation. <br /> <br />
+                On the engineering side, I design and build scalable backend architectures using PHP, Python, and Node.js, alongside modern frontend frameworks. Because my day-to-day work involves requirements gathering, system design, and relational database modeling, I approach development with a holistic mindset that looks far beyond just writing code. <br /><br />
 
-                I’m particularly interested in how systems are designed end-to-end—from defining requirements and structuring APIs to working with data and improving how applications perform in real use. I’ve also worked with tools like Power BI and Tableau to turn data into insights that support better decisions. <br /> <br />
+                As a technical analyst, I focus deeply on how systems operate end-to-end—from structuring efficient APIs to optimizing application performance for real-world usage. To bridge the gap between engineering and business value, I leverage tools like Power BI and Tableau to transform complex data into clear, actionable insights for stakeholders. <br /><br />
 
-                Whether I’m building features, analysing system behaviour, or working with stakeholders, my focus is always on delivering practical, well-structured solutions that are reliable and make sense for both users and the business.I’m optimizing database performance or gathering technical requirements for stakeholders, my goal is always the same: to build smart, reliable technology that delivers measurable value.
+                Whether I am fine-tuning database performance or translating complex business needs into technical specifications, my goal remains the same: to deliver practical, well-structured solutions that make sense for both users and the business.
               </p>
+
 
           </div>
         </div>
