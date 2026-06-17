@@ -23,8 +23,6 @@ const About = () => {
 
                 On the engineering side, I design and build scalable backend architectures using PHP, Python, and Node.js, alongside modern frontend frameworks. Because my day-to-day work involves requirements gathering, system design, and relational database modeling, I approach development with a holistic mindset that looks far beyond just writing code. <br /><br />
 
-                As a technical analyst, I focus deeply on how systems operate end-to-end—from structuring efficient APIs to optimizing application performance for real-world usage. To bridge the gap between engineering and business value, I leverage tools like Power BI and Tableau to transform complex data into clear, actionable insights for stakeholders. <br /><br />
-
                 Whether I am fine-tuning database performance or translating complex business needs into technical specifications, my goal remains the same: to deliver practical, well-structured solutions that make sense for both users and the business.
               </p>
 
