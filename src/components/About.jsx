@@ -21,7 +21,7 @@ const About = () => {
               <p className='text-base lg:text-lg'>
                 I’m a Software Developer with a First Class BSc in IT & Business Information Systems, with experience working across both development and systems analysis. My work sits at the intersection of building reliable applications and understanding how technology supports real business needs. <br /><br />
 
-                With a background in full-stack development, I have designed and built scalable systems using PHP, Python, Node.js, and other modern frontend frameworks. Alongside development, I’ve worked with requirements, system design, and data, which has shaped my approach to thinking beyond just implementation. <br /> <br />
+                With a background in full-stack development, I have designed and built scalable systems using PHP, Python, Node.js, and other modern frontend frameworks. Alongside development, Because my work involves requirements gathering, system design, and relational database modeling, I approach engineering with a holistic mindset that looks far beyond just implementation. <br /> <br />
 
                 I’m particularly interested in how systems are designed end-to-end—from defining requirements and structuring APIs to working with data and improving how applications perform in real use. I’ve also worked with tools like Power BI and Tableau to turn data into insights that support better decisions. <br /> <br />
 
