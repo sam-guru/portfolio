@@ -70,7 +70,7 @@ const Contact = () => {
                       placeholder="Your Name"
                       value={formData.name}
                       onChange={handleChange}
-                      className='bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border border-gray-700 rounded-md focus:outline-none focus:border-pink-600'
+                      className='bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border border-gray-700 rounded-md focus:outline-none focus:border-pink-500'
                     />
                     {errors.name && <div className="text-red-500 text-sm mt-1">{errors.name}</div>}
                   </div>
